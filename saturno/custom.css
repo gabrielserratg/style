@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500&display=swap");
+
+* {
+  font-family: "Baloo Thambi 2", cursive !important;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-container {
+  flex: 1;
+}
+
+/* navigation */
+.uk-navbar-nav .uk-active {
+  border-bottom: 5px solid rgb(223, 97, 75);
+  border-radius: 5px;
+}
+
+/* cards */
+.uk-card {
+  transition: transform 500ms;
+}
+.uk-card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.uk-card-title {
+  font-size: 20px !important;
+}
+
+.uk-card.uk-border-rounded {
+  border-radius: 15px;
+}
+
+.uk-circle {
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+}
+
+#previous_events .uk-card-header {
+  border-top-left-radius: 15px;
+  border-bottom: none;
+  margin-bottom: 30px;
+}
+
+#next_event > div > a > div {
+  height: 100px !important;
+}
+
+@media (max-width: 959px) {
+  .users {
+    margin-top: 3rem !important;
+  }
+  #next_event .uk-card-title {
+    height: 210px;
+  }
+}
+
+@media (min-width: 960px) {
+  .users {
+    margin-top: 13vh !important;
+  }
+  #next_event .uk-card-title {
+    height: 190px;
+  }
+}
+
+.users span.more {
+  font-size: 16px;
+  padding: 0px;
+}
+
+/* set colors */
+.uk-blackground-black-bis {
+  background-color: hsl(0, 0%, 7%);
+}
+
+.uk-text-danger-bis {
+  color: rgb(223, 97, 75) !important;
+}
+
+.uk-text-purple {
+  color: #8a41f7 !important;
+}
+
+.uk-circle.uk-background-danger {
+  border: rgb(223, 97, 75) 4px solid !important;
+}
+.uk-circle.uk-background-primary {
+  border: rgb(21, 126, 247) 4px solid;
+}
+.uk-circle.uk-background-success {
+  border: rgb(63, 219, 206) 4px solid;
+}
+.uk-circle.uk-background-rose {
+  border: rgb(218, 20, 96) 4px solid;
+}
+
+#previous_events .uk-card-header.uk-border-danger {
+  border-left: tomato 4px solid !important;
+}
+#previous_events .uk-card-header.uk-border-primary {
+  border-left: rgb(21, 126, 247) 4px solid !important;
+}
+#previous_events .uk-card-header.uk-border-success {
+  border-left: rgb(63, 219, 206) 4px solid !important;
+}
+#previous_events .uk-card-header.uk-border-rose {
+  border-left: rgb(218, 20, 96) 4px solid !important;
+}
