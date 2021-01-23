@@ -1,0 +1,18 @@
+#icon-gnubash{
+    height: 1em;
+}
+
+.blue{
+    background-color:#15566b;
+    color: white;
+}
+.yellow{
+    background-color: #ccae18;
+    color:white;
+}
+body{
+    background-color: aquamarine;
+}
+.borderd{
+    border-color: white;
+}
